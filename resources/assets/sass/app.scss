@@ -1,0 +1,157 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Images
+@import "depot/images";
+
+.margin-top-20 {
+  margin-top: 20%;
+}
+
+
+.card{
+  border-color: transparent !important;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px #bababa;
+  text-align: center;
+
+
+  .card-text{
+    margin-top: 10%;
+  }
+  .card-title{
+     font-weight: bolder;
+   }
+}
+
+
+.btn-custom{
+  padding: 15px;
+  background-color: #4778a4;
+  border: none;
+  color: white;
+
+  &:hover{
+    background-color: #2d94d4;
+    color: #81d2fe;
+  }
+}
+
+
+//
+.bg{
+  height: 100vh;
+  background: #f2f2f2;
+}
+.cart-table{
+  border-color: transparent !important;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px #bababa;
+  text-align: left;
+  border-radius: 5px;
+}
+.cart-table  td{
+  line-height: 3.5rem !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+.cart-table  th{
+  line-height: 2.5rem !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.cart-table th:nth-child(1){
+  width: 60px;
+}
+.orderHistory th:nth-child(1){
+  width: auto;
+}
+.cart-table  td:nth-child(1),.cart-table  th:nth-child(1){
+  text-align: center;
+}
+.cart-table thead{
+  background: #4679a5;
+  color: #fff;
+}.cart-table tbody{
+   border-left: 1px solid;
+   border-right: 1px solid;
+   border-color: #ddd;
+ }
+
+.cart-table tfoot{
+  background: #f2f2f2;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #ddd;
+}
+
+.page-item.active .page-link {
+  background-color: #f2f2f2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-color: #bababa;
+  color: #333;
+}
+.page-link {
+  color: #333;
+  width: 50px;
+  height: 50px;
+  line-height: 2;
+  border-color:#bababa ;
+  text-align: center;
+}
+.v-select input[type=search], .v-select input[type=search]:focus {
+  background: #fff;
+}
+.mx-input-append {
+  left: 0;
+}
+.mx-input {
+  padding-left: 30px !important;
+  font-weight: 600;
+  height: 42px;
+}
+.dropdown-toggle{
+  position: relative;
+}
+.v-select .selected-tag {
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+  font-size: 14px;
+  color:#666;
+}
+.v-select input[type=search], .v-select input[type=search]:focus {
+  height: 40px;
+  width: 100% !important;
+  width: 96%;
+}
+.form-control{
+  line-height: 1.8;
+}
+.custom-control-label::before {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0;
+}
+
+.table-col {
+  flex-basis:auto;
+}
+
+.active{
+  color: #4d7da8 !important;
+}

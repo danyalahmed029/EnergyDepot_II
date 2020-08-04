@@ -1,0 +1,16 @@
+.landing-background-img{
+  //background-color: #c9c6cd;
+  background: url("../../images/backgroud.jpeg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}

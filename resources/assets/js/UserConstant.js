@@ -1,0 +1,4 @@
+export const TYPE_ADMIN="ADMIN";
+export const TYPE_ACTIVE_USER="ACTIVE_USER";
+export const TYPE_NEW_USER="NEW_USER";
+export const TYPE_PENDING_APPROVAL="PENDING_APPROVAL";

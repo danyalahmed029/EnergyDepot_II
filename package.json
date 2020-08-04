@@ -1,0 +1,73 @@
+{
+  "name": "neu_energy_depot",
+  "version": "1.0.0",
+  "description": "Energy Depot JS Deps",
+  "repository": "https://github.com/Neuone/EnergyDepot_II",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Mike Lawson",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-engine-plugin": "^0.2.1",
+    "babel-plugin-resolver": "^1.1.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-node-module": "^2.0.5",
+    "babel-preset-stage-2": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "cross-env": "^5.1.6",
+    "eslint": "^4.19.1",
+    "font-awesome": "^4.7.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^3.0.0",
+    "laravel-mix": "^2.1.11",
+    "phantomjs": "^2.1.7",
+    "proxyquireify": "^3.2.1",
+    "vue-loader": "^13.3.0",
+    "vueify": "^9.4.1",
+    "watchify": "^3.11.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "es6-promise": "^4.2.4",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.10",
+    "lodash.startcase": "^4.4.0",
+    "path": "^0.12.7",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-simple-spinner": "^1.2.8",
+    "vue-template-compiler": "^2.5.16",
+    "vue2-dropzone": "^3.0.2",
+    "webpack": "^3.11.0",
+    "webpack-babel-env-deps": "^1.4.3",
+    "vue2-datepicker": "^2.0.4",
+    "vue-select": "^2.4.0"
+  }
+}
